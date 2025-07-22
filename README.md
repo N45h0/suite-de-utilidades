@@ -1,6 +1,6 @@
-# Scripts Útiles - Colección de Herramientas Python
+# Suite de Utilidades - Herramientas de Productividad Python
 
-Una colección completa de scripts útiles para diferentes tareas automatizadas, incluyendo descarga de archivos, procesamiento de imágenes, transcripción de audio y más.
+Una suite completa de utilidades para automatizar tareas diarias, incluyendo descarga avanzada de archivos, procesamiento de imágenes con OCR, transcripción de audio, web scraping y mucho más. Todo integrado en una interfaz gráfica moderna y elegante.
 
 ## 🚀 Características Principales
 
@@ -39,8 +39,8 @@ Una colección completa de scripts útiles para diferentes tareas automatizadas,
 ### Instalación rápida
 ```bash
 # Clonar el repositorio
-git clone https://github.com/tuusuario/scripts-utiles.git
-cd scripts-utiles
+git clone https://github.com/N45h0/suite-de-utilidades.git
+cd suite-de-utilidades
 
 # Crear entorno virtual
 python -m venv venv311
@@ -62,19 +62,17 @@ pip install -r requirements.txt
 
 ## 🚀 Uso
 
-### Aplicación Principal (GUI)
+### Aplicación Principal (Suite Unificada)
 ```bash
 python gui/main_app.py
 ```
 
-### Descargador de Google Drive
+### Herramientas Individuales
 ```bash
+# Descargador avanzado de Google Drive
 python gui/google_drive_downloader.py
-```
 
-### Scripts individuales
-```bash
-# OCR de imágenes
+# OCR de imágenes (individual o por lotes)
 python imagen_a_texto/imagen_a_texto_individual.py
 
 # Descarga de podcasts
@@ -87,20 +85,24 @@ python youtube_downloader/descargar_youtube.py
 ## 📁 Estructura del Proyecto
 
 ```
-SCRIPTS UTILES/
-├── gui/                          # Aplicaciones con interfaz gráfica
-│   ├── main_app.py              # Aplicación principal unificada
+Suite de Utilidades/
+├── gui/                          # Aplicaciones con interfaz gráfica unificada
+│   ├── main_app.py              # Suite principal - punto de entrada
 │   ├── google_drive_downloader.py # Descargador avanzado de Google Drive
-│   ├── ocr_window.py            # Interfaz para OCR
+│   ├── ocr_window.py            # Interfaz para OCR de imágenes
 │   ├── pdf_to_markdown.py       # Conversor PDF a Markdown
-│   └── ...
-├── imagen_a_texto/              # Scripts de OCR
-├── podcast_downloader/          # Descarga de podcasts
-├── youtube_downloader/          # Descarga de YouTube
-├── gestion_imagenes/            # Gestión y procesamiento de imágenes
-├── scraping/                    # Web scraping
-├── transcripciones/             # Transcripción de audio
-└── requirements.txt             # Dependencias del proyecto
+│   ├── podcast_downloader_window.py # Descargador de podcasts
+│   ├── youtube_downloader_window.py # Descargador de YouTube
+│   ├── transcriber_window.py    # Transcriptor de audio a texto
+│   ├── web_scraper_window.py    # Herramientas de web scraping
+│   └── icons/                   # Iconografía de la suite
+├── imagen_a_texto/              # Módulos de OCR especializados
+├── podcast_downloader/          # Descarga automatizada de podcasts
+├── youtube_downloader/          # Descarga de contenido de YouTube
+├── gestion_imagenes/            # Procesamiento y gestión de imágenes
+├── scraping/                    # Herramientas de web scraping
+├── transcripciones/             # Transcripción y procesamiento de audio
+└── requirements.txt             # Dependencias de la suite
 ```
 
 ## 🔧 Características Técnicas del Descargador de Google Drive
@@ -143,6 +145,8 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 
 Estos scripts son para uso educativo y personal. Asegúrate de cumplir con los términos de servicio de las plataformas que uses y respetar los derechos de autor del contenido descargado.
 
+La Suite de Utilidades está diseñada para mejorar tu productividad personal y debe usarse de manera responsable.
+
 ## 🔍 Troubleshooting
 
 ### Problemas comunes
@@ -173,4 +177,6 @@ Si tienes problemas o sugerencias, por favor abre un issue en GitHub.
 
 ---
 
-⭐ Si te gusta este proyecto, ¡dale una estrella en GitHub!
+⭐ **Si te gusta la Suite de Utilidades, ¡dale una estrella en GitHub!**
+
+🔧 **Desarrollado con ❤️ para la comunidad de desarrolladores Python**
