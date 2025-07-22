@@ -1,0 +1,13 @@
+customtkinter
+Pillow
+yt-dlp
+openai-whisper
+requests
+beautifulsoup4
+selenium
+feedparser
+pydub
+speechrecognition
+pytesseract
+python-docx
+tkinter

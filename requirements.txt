@@ -1,0 +1,9 @@
+# requirements.txt - Actualizado con dependencias para PDF a Markdown y Google Drive Downloader
+customtkinter>=5.2.0
+pillow>=10.0.0
+pydub>=0.25.1
+pytube>=15.0.0
+requests>=2.31.0
+beautifulsoup4>=4.12.2
+SpeechRecognition>=3.10.0
+PyMuPDF>=1.22.5  # Para la funcionalidad de PDF a Markdown

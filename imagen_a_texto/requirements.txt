@@ -1,0 +1,4 @@
+pytesseract
+Pillow
+python-docx
+tkinter
